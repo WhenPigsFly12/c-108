@@ -46,7 +46,7 @@ function take_snapshot() {
 
 function save() {
     link = document.getElementById("link");
-    img = document.getElementById("selfie");
+    img = document.getElementById("selfie").src;
     link.href = img;
     link.click();
 }
